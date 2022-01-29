@@ -385,3 +385,5 @@ D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityMa
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\ref\IdentityManager.dll
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\IdentityManager.pdb
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\IdentityManager.genruntimeconfig.cache
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartialCustom.cshtml.g.cs
