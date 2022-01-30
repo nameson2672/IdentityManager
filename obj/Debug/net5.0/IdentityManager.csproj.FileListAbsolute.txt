@@ -101,7 +101,6 @@ D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityMa
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
-D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
@@ -390,3 +389,12 @@ D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityMa
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\Razor\Views\Account\Lockout.cshtml.g.cs
 D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\IdentityManager.StaticWebAssets.xml
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\Castle.Core.dll
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\Mailjet.Client.dll
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\staticwebassets\IdentityManager.StaticWebAssets.xml
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\Razor\Views\Account\Error.cshtml.g.cs
+D:\Dotnet Shit\ASP.NET Core Identity - Authentication & Authorization\IdentityManager\obj\Debug\net5.0\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
