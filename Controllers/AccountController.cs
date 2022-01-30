@@ -20,9 +20,9 @@ namespace IdentityManager.Controllers
             return View();
         }
         [HttpGet]
-        public IActionResult Register()
+        public IActionResult Register(string returnUrl = null)
         {
-
+            ViewData["ReturnUrl"] = returnUrl;
             RegisterViewModel registerViewModel = new RegisterViewModel();
 
             return View(registerViewModel);
@@ -72,12 +72,16 @@ namespace IdentityManager.Controllers
             returnUrl = returnUrl ?? Url.Content("~/");
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: true);
 
 
                 if (result.Succeeded)
                 {
-                    return Redirect(returnUrl);
+                    return LocalRedirect(returnUrl);
+                }
+                if(result.IsLockedOut)
+                {
+                    return View("Lockout");
                 }
                 else
                 {
@@ -89,6 +93,12 @@ namespace IdentityManager.Controllers
 
             return View(model);
 
+        }
+        [HttpGet]
+        [ValidateAntiForgeryToken]
+        public IActionResult ForgetPassword()
+        {
+            return View();
         }
         private void AddErrors(IdentityResult result)
         {
