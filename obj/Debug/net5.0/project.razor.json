@@ -15649,6 +15649,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Dotnet Shit\\ASP.NET Core Identity - Authentication & Authorization\\IdentityManager\\Views\\Account\\ForgetPassword.cshtml",
+      "TargetPath": "Views\\Account\\ForgetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Dotnet Shit\\ASP.NET Core Identity - Authentication & Authorization\\IdentityManager\\Views\\Account\\Register.cshtml",
       "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"

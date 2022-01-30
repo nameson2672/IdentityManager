@@ -95,10 +95,15 @@ namespace IdentityManager.Controllers
 
         }
         [HttpGet]
-        [ValidateAntiForgeryToken]
         public IActionResult ForgetPassword()
         {
             return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ForgetPassword(ForgetPasswordViewModel model){
+            return View(model);
         }
         private void AddErrors(IdentityResult result)
         {
